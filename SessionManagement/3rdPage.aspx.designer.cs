@@ -11,7 +11,7 @@ namespace SessionManagement
 {
 
 
-    public partial class MembersMain
+    public partial class _3rdPage
     {
 
         /// <summary>
@@ -31,14 +31,5 @@ namespace SessionManagement
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUser;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

@@ -4,6 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <%--<script runat="server">
+        void page_load(object sender, EventArgs e)
+        {
+            HttpContext.Current.Session["User"] = "User";
+        }
+    </script>--%>
     <title></title>
 </head>
 <body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">

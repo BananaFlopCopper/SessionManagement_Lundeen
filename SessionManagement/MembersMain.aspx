@@ -12,6 +12,7 @@
             <h2>Member's Main Page</h2>
             <asp:Label ID="lblUser" runat="server" Font-Size="Large" />
         </div>
+        <asp:Button ID="Button1" runat="server" Height="536px" OnClick="Button1_Click" Text="Doom" Width="1169px" />
     </form>
 </body>
 </html>

@@ -9,8 +9,15 @@ namespace SessionManagement
 {
     public class Global : System.Web.HttpApplication
     {
+        
         protected void Application_Start(object sender, EventArgs e)
         {
+            
+        }
+        protected void Session_Start(object sender, EventArgs e)
+        {
+            //if (HttpContext.Current.Session != null) return;
+            HttpContext.Current.Session["user"] = "user";
         }
     }
 }
